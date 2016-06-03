@@ -1,0 +1,28 @@
+
+Selecciona toda la tabla y muestra sus dats
+SELECT * FROM NombreTabla
+
+Selecciona solo la columna nombre y edad. Mostrando solo esos datos
+SELECT  nombre, edad  FROM NombreTabla
+
+Selecciona todos los datos que pueda tener el identificador 1456. Mostrando todos (*) los datos
+SELECT  * FROM NombreTabla  WHERE id_tabla='1456';
+
+Guarda información en la tabla en el campo1 el valor 1 en el campo2 el valor Luis
+INSERT INTO nombreTabla(nom_Campo1,nom_Campo2) VALUES ('1','Luis')";
+
+Actualiza en el registro 1 la edad y el nombre
+UPDATE usuarios SET edad='23', nombre='Luis'  WHERE id='1';
+
+Actualiza o modifica el nombre. Si encuentra el registro Gustavo entonces lo cambiara por Luis y tambien su edad
+UPDATE usuarios SET edad='23', nombre='Luis'  WHERE nombre='Gustavo';
+
+Cuidado!!! borra toda la tabla
+DELETE  FROM NombreTabla;
+
+Cuidado!!! Busqueda de forma especifica por nombre y apellido. Si lo encuentra,borrara el registro.
+Recuerda que en las sentencias WHERE podemos jugar con AND u OR
+
+DELETE  FROM usuarios  WHERE nombre'Sofia' AND apellido ='Ortega';
+
+

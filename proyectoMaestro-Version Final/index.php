@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Directorio FIAD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="estilos/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Content -->
+	<section>	
+	<div id="content">
+				<div class="inner">	
+
+					<!-- Post -->
+						<article class="box post post-excerpt">
+							<header>		
+								<a href="index.php" class="image featured">
+								<img src="imagenes/logo (2).png" alt="Logo alt" width=900 height=200>
+							  </a>							
+							</header>
+							
+							<div class="info">
+							<ul class="stats">
+									<li><a href="https://www.facebook.com/groups/fiadens/?fref=ts" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=40 height=30  /></a></li>
+									<li><a href="https://llave.uabc.edu.mx/auth/login" target="_blank"><img alt="Correo Uabc" src="imagenes/correo.png" width=40 height=30></a></li>
+								    <li><a href="http://fiad.ens.uabc.mx" target="_blank"><img alt="FIAD" src="imagenes/fiad.png" width=40 height=30></a></li>
+									<li><a href="http://148.231.9.12/wd120awp.exe/connect/siss2009r2"  target="_blank"><img alt="Servicio Social Uabc" src="imagenes/servicio social.png" width=40 height=30></a></li>
+							</ul>
+							</div>
+													
+							<a href="index.php" class="image featured"><img src="imagenes/imagen principal.png" alt="Uabc"  /></a>
+							<p>
+								<strong>¿Quiene Somos?<br></br> Planta de Maestro UABC
+							</p>						
+							La idea de realizar el siguiente sistema surge debido a la necesidad vista en los alumnos de FIAD, Nos percatamos que los  alumnos no conocen  
+							a la mayoría de los maestros que  imparten clases en este campus, por lo que la idea principal de realizar este sistema es para compartirle a
+							los alumnos información básica de los maestros, como una reseña académica, materias imparte, aspecto físico, historial académico a la fecha,
+							horarios de atención, correo electrónico de contacto, así como información de proyectos en los que esté relacionado el maestro.
+							<br></br>
+							El sistema es una herramienta de mucha ayuda para los alumnos de nuevo ingreso y reingreso, ya  que al iniciar un nuevo semestre muestran interés
+							en tener información del maestro para tomarla en cuenta al momento de entrar a la subasta académica, también les ayudara a saber si el maestro está 
+							disponible para tutorías o si tiene proyectos en puerta donde  necesite el apoyo de algún estudiante, el sistema fue creado para que localizar a 
+							los maestros o coordinadores de esta facultad ya no sea un inconveniente.
+							<br></br>
+							Así que si eres de nuevo ingreso o no, esta página te ayudara a conocer un poco más a los maestros de  FIAD, contaras con la información necesaria
+							para ponerte en contacto con ellos y las investigaciones que han realizado anteriormente.
+							</p></strong>
+							<a href="index.html" class="image featured"><img src="imagenes/imagenes abajo.png" alt="Uabc"  /></a>
+						</article>
+
+				<!-- Pagination -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Sidebar -->
+		<section>
+			<div id="sidebar">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="index.php">Planta de Maestros</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="Bio.php">Bioingeniería </a></li>
+							<li><a href="Civil.php">Ingeniería Cilvil</a></li>
+							<li><a href="Computacion.php">Ingeniería en Computación</a></li>
+							<li><a href="Electronica.php">Ingeniería Electrónica</a></li>
+							<li><a href="Industrial.php">Ingeniería Industrial</a></li>
+							<li><a href="Nano.php">Nanotecnología</a></li>
+						</ul>
+					</nav>
+					
+				  <section class="box text-style1">
+				  <div class="inner">
+						<form action="login.php" method="POST">
+							<table><h2>LOGIN</h2>
+						
+											<tr>
+												<label><h3>Usuario:</h3></label>
+												<input type="email" name="usuario" placeholder="Escriba su email" required="" >
+												
+											</tr>
+						   
+											<tr>
+												<label><h3>Contraseña:</h3></label>								
+												<input type="password" name="passusuario" placeholder="Contraseña" required="" >
+											</tr>
+							</table>
+								<input type="submit" value="Iniciar sesion" >
+						</form>
+					</div>
+                 </section>
+				   
+		  
+				    <ul id="copyright">
+						<li>Derechos Reservados.</li><li>Space Web Design <a href="https://www.facebook.com/SpaceWeb-Design-1505450843038483/" target="_blank">Facebook</a></li>
+					</ul>
+
+			</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="estilos/js/jquery.min.js"></script>
+			<script src="estilos/js/skel.min.js"></script>
+			<script src="estilos/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="estilos/js/main.js"></script>
+
+	</body>
+</html>
+

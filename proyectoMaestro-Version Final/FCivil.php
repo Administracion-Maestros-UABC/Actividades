@@ -1,0 +1,124 @@
+<?php
+session_start();
+echo"---------------------------------------------Ha iniciado sesiónn con ------->>> ".$_SESSION['usuario'];
+echo"<a href='logout.php'>Cerrar sesión</a>";
+?>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Directorio FIAD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="estilos/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Content -->
+	<section>	
+	<div id="content">
+				<div class="inner">
+
+					<!-- Formulario -->
+						<article class="box post post-excerpt">
+							<header>		
+								<a href="index.php" class="image featured">
+								<img src="imagenes/logo (2).png" alt="Logo alt" width=900 height=200>
+							  </a>	
+									<p>Registro Ingeniería Civil</p>							
+							</header>
+						</article>
+						<article>
+							<form action="perfilCivil.php" method="Post">
+												
+							<div id="registro"><!--identificador "regstro para mi hoja css del formulario"-->
+								<table>
+									<tr>
+										<td><label>Nombre Completo:</label></td>
+										<td><input type="text" name="NomMaestro" placeholder="Escriba su nombre completo" tabindex="1" required="" ></td>
+									</tr>
+									<tr>
+										<td><label>Suba una foto de perfil:</label></td>
+										<td><input type="file" name="imagen" tabindex="2" required=""></td>									
+									</tr>
+									<tr>
+										<td><label>Correo:</label></td>
+										<td><input type="email" name="correo" placeholder="ejemplo@uabc.edu.mx" tabindex="3" required ></td>
+									</tr>
+									<tr>
+										<td><label>Profesion o Titulos:</label></td>
+										<td><input type="text"  name="titulos"  placeholder="Escriba los titulos con los que cuenta"  required="" ></td>
+									</tr>
+										<tr>
+										<td><label>Eliga una opcion:</label></td>
+										<td>Docente de Tiempo completo:<input type="radio" name="tipo" value="Tiempo completo" ></td>
+										<td>Docente por Materias:<input type="radio" name="tipo" value="Por Horario" ></td>
+									</tr>
+									<tr>
+										<td><label>Reseña academica:</label></td>
+										<td><textarea name="resena" cols="20" rows="10"  placeholder="Escriba una reseña academica de sus logros profesionales" required="" ></textarea></td>
+									</tr>
+									<tr>
+										<td><label>Historial de Materias:</label></td>
+										<td><textarea name="hMaterias" cols="20" rows="10" placeholder="Escriba breve historial de materias impartidas en la Facultad" required="" ></textarea></td>
+									</tr>
+									<tr>
+										<td><label>Ligas de sitio Web:</label></td>
+										<td><input type="url" name="url"  placeholder="Si cuenta con un sitio web de apoyo, ingrese la liga aqui" ></td>
+									</tr>
+									<tr>
+										<td><label>Adjuntar Horario Laboral:</label></td>
+										<td><input type="file" name="archivo"  required="" /></td>									
+									</tr>
+																	
+								</table>
+								<input type="submit" value="Guardar datos">
+							</div>
+						
+							</form>
+						
+						</article>
+						
+
+					
+
+					<!-- Pagination -->
+				</div>
+			</div>
+		</section>	
+
+		<!-- Sidebar -->
+				<section>
+			<div id="sidebar">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="index.php">Planta de Maestros</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="Bio.php" target="_blank">Bioingeniería </a></li>
+							<li><a href="Civil.php" target="_blank">Ingeniería Cilvil</a></li>
+							<li><a href="Computacion.php" target="_blank">Ingeniería en Computación</a></li>
+							<li><a href="Electronica.php" target="_blank">Ingeniería Electrónica</a></li>
+							<li><a href="Industrial.php" target="_blank">Ingeniería Industrial</a></li>
+							<li><a href="Nano.php" target="_blank">Nanotecnología</a></li>
+						</ul>
+					</nav>				   
+				  <ul id="copyright">
+						<li>Derechos Reservados.</li><li>Space Web Design <a href="https://www.facebook.com/SpaceWeb-Design-1505450843038483/" target="_blank">Facebook</a></li>
+				  </ul>
+
+			</div>
+		</section>	
+
+		<!-- Scripts -->
+			<script src="estilos/js/jquery.min.js"></script>
+			<script src="estilos/js/skel.min.js"></script>
+			<script src="estilos/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="estilos/js/main.js"></script>
+
+	</body>
+</html>
